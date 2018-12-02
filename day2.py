@@ -19,8 +19,6 @@ for box in boxes:
 
 print('The checksum = ' + str(twoOccurance) + " * " + str(threeOccurance) + " = " + str(twoOccurance * threeOccurance))
 
-
-
 #star 2 solution
 commonLetters = ''
 for index, box1 in enumerate(boxes):
@@ -30,3 +28,6 @@ for index, box1 in enumerate(boxes):
                 if a == b:
                     commonLetters += a
             print("The common letters are: " + commonLetters)
+
+#Lessons learned
+#   Zip events can be used to combine two variables and then to iterate through them together
